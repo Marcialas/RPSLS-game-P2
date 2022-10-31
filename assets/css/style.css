@@ -32,3 +32,35 @@ body {
     font-size: 0.7rem;
     margin-top: 15px;
 }
+
+/* Options styling */
+
+.wrapper {
+    width: 100%;
+    padding: 0 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.options-container {
+    width: 150px;
+    height: auto;
+    margin: 10px;
+
+    transition: 0.5s;
+
+}
+.options-container:hover {
+    transform: scale(1.2);
+}
+.options-container button {
+    border: none;
+    background-color: #00664e;
+}
+
+img {
+    max-width: 80%;
+    border: 0;
+}
