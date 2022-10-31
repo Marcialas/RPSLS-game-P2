@@ -23,19 +23,19 @@
 
         <div class="wrapper">
             <div class="options-container">
-                <button><img src="assets/images/rock.jpg" alt="Rock"></button>
+                <button onclick="playGame('Rock')"><img src="assets/images/rock.jpg" alt="Rock"></button>
             </div>
             <div class="options-container">
-                <button><img src="assets/images/paper.jpg" alt="Paper"></button>
+                <button onclick="playGame('Paper')"><img src="assets/images/paper.jpg" alt="Paper"></button>
             </div>
             <div class="options-container">
-                <button><img src="assets/images/scissors.jpg" alt="Scissors"></button>
+                <button onclick="playGame('Scissors')"><img src="assets/images/scissors.jpg" alt="Scissors"></button>
             </div>
             <div class="options-container">
-                <button><img src="assets/images/lizard.jpg" alt="Lizard"></button>
+                <button onclick="playGame('Lizard')"><img src="assets/images/lizard.jpg" alt="Lizard"></button>
             </div>
             <div class="options-container">
-                <button><img src="assets/images/spock.jpg" alt="Spock"></button>
+                <button onclick="playGame('Spock')"><img src="assets/images/spock.jpg" alt="Spock"></button>
             </div>
         </div>
 
@@ -47,7 +47,7 @@
                 <div id="playerChoice"></div>
             </div>
             <div>
-                <button class="reset">RESET</button>
+                <button class="reset" onclick="reset()">RESET</button>
             </div>
             <div class="computer-container">
                 <h3>Computer score: <span id="computer_score">0</span></h3>
@@ -66,7 +66,7 @@
             <p class="quote">Dr. Sheldon Lee Cooper, B.Sc., M.Sc., M.A., Ph.D., Sc.D.</p>
         </div>
     </footer>
-
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>

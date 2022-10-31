@@ -77,3 +77,14 @@ function playGame(input) {
             break;   
     }
 }
+
+// reset button 
+
+function reset() {
+    computerScoreCount = 0;
+    computerScore.innerHTML = `${computerScoreCount}`;
+    playerScoreCount = 0;
+    playerScore.innerHTML = `${playerScoreCount}`;
+    message.innerText = '';
+}
+
