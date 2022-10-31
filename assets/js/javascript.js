@@ -44,3 +44,36 @@ let gameRules = {
         Spock: 'draw'
     }
 };
+
+// Main game function 
+
+function playGame(input) {
+    let choices = ["Rock", "Paper", "Scissors", "Lizard", "Spock"];
+    let randomNumber = Math.floor(Math.random() * 5); 
+    let computer_choice = choices[randomNumber];
+
+
+    document.getElementById("computerChoice").innerHTML = `Computer choose <span>${computer_choice.toUpperCase()}</span>`;  
+    document.getElementById("playerChoice").innerHTML = `You choose <span>${input.toUpperCase()}</span>`;
+
+
+	console.log('player input', input, 'computer choice', computer_choice);
+    switch(gameRules[computer_choice][input]) {
+        case 'win':
+            message.innerText = `You win`;
+            message.style.cssText = "background-color: rgb(7, 162, 40)";
+            playerScoreCount++;
+            playerScore.innerHTML = `${playerScoreCount}`;
+            break;
+        case 'lose':
+            message.innerText = `You lose`;
+            message.style.cssText = "background-color: rgb(200, 16, 22)";
+            computerScoreCount++;
+            computerScore.innerHTML = `${computerScoreCount}`;
+            break;
+        case 'draw':
+            message.innerText = `Draw`;
+            message.style.cssText = "background-color: rgb(100, 100, 100)";
+            break;   
+    }
+}
