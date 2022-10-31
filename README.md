@@ -79,7 +79,7 @@
 <li>Click on "pages" in navigation on the left</li>
 <li>Under "Branch" section, dropdown and select "main", then click save, link with deployed website is at the top of the page.</li>
 </ul></li>
-<li>The live Website can be found here - <a href='https://marcialas.github.io/RPSLS-game/'>Rock, Paper, Scissors, Lizard, Spock!</a></li>
+<li>The live Website can be found here - <a href='https://marcialas.github.io/RPSLS-game-P2/'>Rock, Paper, Scissors, Lizard, Spock!</a></li>
 </ul>
 
 <br>
