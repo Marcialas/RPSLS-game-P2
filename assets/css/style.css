@@ -33,6 +33,12 @@ body {
     margin-top: 15px;
 }
 
+@media screen and (max-width: 768px) {
+    .rules-box {
+        margin: 10px 20px;
+    }
+}
+
 /* Options styling */
 
 .wrapper {
