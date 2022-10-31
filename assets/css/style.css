@@ -64,3 +64,28 @@ img {
     max-width: 80%;
     border: 0;
 }
+
+/* score style */
+
+#message {
+    margin: 30px auto;
+    width: 10rem;
+
+}
+
+.score-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    align-items: center;
+    margin: 0 30px 100px 30px;
+}
+
+.reset {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #003d2f;
+    border: none;
+    color: white;
+}
